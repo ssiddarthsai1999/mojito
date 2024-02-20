@@ -1,0 +1,67 @@
+{
+    "testimonials": [
+        {
+            "name": "alice",
+            "comment": "nice work"
+        },
+        {
+            "name": "john",
+            "comment": "nice work"
+        }
+    ],
+
+    "about": [
+        {
+            "id":1,
+            "stat": "PROJECTS COMPLETED",
+            "number": "900+"
+        },
+        { "id": 2, "stat": "PROJECTS COMPLETED", "number": "900+" },
+        { "id": 3, "stat": "PROJECTS COMPLETED", "number": "900+" },
+        { "id": 4, "stat": "PROJECTS COMPLETED", "number": "900+" }
+    ],
+
+    "team": [
+        {
+            "name": "alice",
+            "role": "Ceo",
+            "link": "alice",
+            "image": "https://www.highsnobiety.com/static-assets/dato/1682678466-hapebeast-nft-interview-digimental-2.jpg"
+        },
+        {
+            "name": "alice",
+            "role": "Ceo",
+            "link": "alice",
+            "image": "https://www.highsnobiety.com/static-assets/dato/1682678466-hapebeast-nft-interview-digimental-2.jpg"
+        },
+        {
+            "name": "alice",
+            "role": "Ceo",
+            "link": "alice",
+            "image": "https://www.highsnobiety.com/static-assets/dato/1682678466-hapebeast-nft-interview-digimental-2.jpg"
+        },
+        {
+            "name": "alice",
+            "role": "Ceo",
+            "link": "alice",
+            "image": "https://www.highsnobiety.com/static-assets/dato/1682678466-hapebeast-nft-interview-digimental-2.jpg"
+        },
+        {
+            "name": "alice",
+            "role": "Ceo",
+            "link": "alice",
+            "image": "https://www.highsnobiety.com/static-assets/dato/1682678466-hapebeast-nft-interview-digimental-2.jpg"
+        }
+    ],
+
+    "clients": [
+        {
+            "name": "google",
+            "comment": "nice work"
+        },
+        {
+            "name": "youtube",
+            "comment": "nice work"
+        }
+    ]
+}

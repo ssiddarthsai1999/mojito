@@ -1,0 +1,90 @@
+.aboutCard {
+    width: 100%;
+    height: 700px;
+    border-radius: 40px;
+    height: 100%;
+    padding: 70px;
+    background: rgba(0, 0, 0, 0.15);
+    transition: 0.3s ease;
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+}
+#aboutCard1:hover {
+    background-color: rgb(80, 80, 244);
+}
+#aboutCard2:hover {
+    background-color: rgb(45, 196, 57);
+}
+#aboutCard3:hover {
+    background-color: rgb(199, 160, 32);
+}
+#aboutCard4:hover {
+    background-color: rgb(244, 80, 244);
+}
+
+/* Target the container of the cards */
+.aboutCard > div {
+    margin-top: 0px;
+}
+
+/* Incremental margin-top for each card */
+.aboutCard > div:nth-child(1) {
+    margin-top: 0px;
+}
+.aboutCard4 > div:nth-child(2) {
+    margin-top: 20px;
+}
+.aboutCard > div:nth-child(3) {
+    margin-top: 40px;
+}
+.aboutCard > div:nth-child(4) {
+    margin-top: 80px;
+}
+/* Continue as needed based on the number of cards */
+/* Target the container of the cards */
+.cards-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+/* Apply staggered offset to each card */
+.cards-container > .aboutCard:nth-child(2) {
+    margin-top: 240px;
+}
+.cards-container > .aboutCard:nth-child(3) {
+    margin-top: 80px;
+}
+.cards-container > .aboutCard:nth-child(4) {
+    margin-top: 320px;
+}
+
+/* Reset the margin for smaller screens if needed */
+@media (max-width: 768px) {
+    .cards-container > .aboutCard {
+        margin-top: 0;
+    }
+
+    .aboutCard {
+        width: 100%;
+
+        border-radius: 40px;
+        height: 100%;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.15);
+        transition: 0.3s ease;
+        backdrop-filter: blur(3.5px);
+        -webkit-backdrop-filter: blur(3.5px);
+    }
+    .cards-container > .aboutCard:nth-child(2) {
+        margin-top: 60px;
+    }
+    .cards-container > .aboutCard:nth-child(3) {
+        margin-top: 60px;
+    }
+    .cards-container > .aboutCard:nth-child(4) {
+        margin-top: 60px;
+    }
+}
