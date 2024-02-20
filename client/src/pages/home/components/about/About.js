@@ -120,7 +120,7 @@ function About({ data }) {
                     WHO WE ARE
                 </h1>
                 <span className=" mb-2 md:mb-[100px] text-left " id="splith3">
-                    We roar with success, deliverying the nymos through
+                    We roar with success, deliverying the mojito through
                     versatile design, branding and the latest tech development.
                 </span>
                 <button className="buttonVariation1 md:mt-2 mt-10 w-fit">

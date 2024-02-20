@@ -60,7 +60,7 @@ function Navbar() {
                     className="items-center justify-center align-middle"
                 >
                     <div className="flex cursor-pointer ">
-                        <h1 className="text-lg">Nymos</h1>
+                        <h1 className="text-lg">mojito</h1>
                     </div>
                 </Link>
 

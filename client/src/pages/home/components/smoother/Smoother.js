@@ -37,9 +37,12 @@ function Smoother() {
     useEffect(() => {
         gsap.registerPlugin(SplitText);
 
-        const splitSmootherH1 = new SplitText("#splitsmootherh1", { type: "chars" });
-        const splitSmootherH4 = new SplitText("#splitsmootherh4", { type: "chars" });
-
+        const splitSmootherH1 = new SplitText("#splitsmootherh1", {
+            type: "chars",
+        });
+        const splitSmootherH4 = new SplitText("#splitsmootherh4", {
+            type: "chars",
+        });
 
         gsap.from(splitSmootherH1.chars, {
             duration: 1.2,
@@ -83,7 +86,6 @@ function Smoother() {
         return () => {
             splitSmootherH1.revert();
             splitSmootherH4.revert();
-       
         };
     }, []);
 
@@ -101,7 +103,7 @@ function Smoother() {
                         className=" mb-2 md:mb-[100px] w-1/2 mx-auto text-center"
                         id="splitsmootherh4"
                     >
-                        We roar with success, deliverying the nymos through
+                        We roar with success, deliverying the mojito through
                         versatile design, branding and the latest tech
                         development.
                     </h4>
